@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌱 EcoQuest — Gamified Environmental Education</title>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <!-- Ambient Environmental Theme Background layers -->
+  <div id="theme-sky-backdrop"></div>
+  
+  <!-- Glowing Celestial Body (Sun / Moon) -->
+  <div id="celestial-body"></div>
+  
+  <!-- Floating clouds container (day theme only) -->
+  <div id="clouds-container"></div>
+  
+  <!-- Starfield container (night theme only) -->
+  <div id="starfield"></div>
+  
+  <!-- Falling Leaves Animation Canvas -->
+  <canvas id="falling-leaves-canvas"></canvas>
+  
+  <!-- Trees silhouette at the bottom of the viewport -->
+  <div id="forest-silhouette"></div>
+
+  <!-- Toast Notification Wrapper -->
+  <div id="toast-container"></div>
+
+  <!-- Application Mount Node -->
+  <div id="app"></div>
+
+  <!-- Application Initialization script -->
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
